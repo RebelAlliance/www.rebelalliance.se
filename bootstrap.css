@@ -668,10 +668,21 @@ abbr[data-original-title] {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 13.5px 27px;
-  margin: 0 0 27px;
-  font-size: 22.5px;
-  border-left: 5px solid #eeeeee;
+  padding: 13.5px 0px;
+  margin: 0 0 13.5px;
+  /*font-size: 22.5px;*/
+  font-style: italic;
+}
+blockquote {
+  padding: 0;
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  blockquote {
+    font-size: 24px;
+  }
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -684,7 +695,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.5;
-  color: #777777;
+  color: inherit;
 }
 blockquote footer:before,
 blockquote small:before,
@@ -5429,7 +5440,7 @@ button.close {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: -40px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -5495,7 +5506,7 @@ button.close {
     padding-bottom: 30px;
   }
   .carousel-indicators {
-    bottom: 20px;
+    bottom: -40px;
   }
 }
 .clearfix:before,
@@ -5832,14 +5843,17 @@ button.close {
   font-style: italic;
 }
 section {
-  margin: 60px 0;
+  /*margin: 60px 0;*/
+}
+section {
+  padding: 50px 0 36.5px 0;
 }
 section#about-us {
-  margin: 33px 0 60px 0;
+  /*margin: 33px 0 60px 0;*/
 }
-
 section.splash {
   margin: 0;
+  padding: 0;
   height: 500px;
   background-image: url(img/planet-splash.jpg);
   background-position: center;
@@ -5865,6 +5879,62 @@ section.splash .middle p {
     line-height: 1.4;
   }
 }
+section.intro {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+section.intro .bg-holder {
+  padding-top: 30px;
+  padding-bottom: 36.5px;
+}
+@media (min-width: 768px) {
+  section.intro .bg-holder {
+    padding-top: 50px;
+  }
+  section.intro .bg-holder.henrik {
+    background: url('./img/henrik-full.jpg') 100% 0 no-repeat;
+  }
+  section.intro .bg-holder.jeff {
+    background: url('./img/jeff-full.jpg') 100% 0 no-repeat;
+  }
+}
+section.quotes {
+  margin-top: 0;
+  padding: 50px 0 36.5px 0;
+  color: #ffffff;
+  background-color: #0099cc;
+}
+section.presentation {
+
+}
+.intro p {
+  font-size: 24px;
+}
+@media (min-width: 992px) {
+  .intro p {
+    font-size: 24px;
+  }
+}
+.intro .name {
+  display: block;
+  text-transform: uppercase;
+  font-size: 120px;
+  line-height: 1;
+  color: #0099cc;
+}
+@media (min-width: 768px) {
+  .intro .name {
+    font-size: 120px;
+  }
+}
+@media (min-width: 992px) {
+  .intro .name {
+    font-size: 120px;
+  }
+}
+.discrete {
+  color: #777;
+}
 .box {
   /*background-color: #0099cc;*/
   background-color: #f6f6f6;
@@ -5882,12 +5952,8 @@ section.splash .middle p {
   color: #ad9709;
 }
 
-
 footer.page {
   margin: 60px 0;
 }
-
-
-
 
 
