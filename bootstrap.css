@@ -5921,6 +5921,7 @@ section.presentation {
   font-size: 120px;
   line-height: 1;
   color: #0099cc;
+  margin-bottom: 0.2em;
 }
 @media (min-width: 768px) {
   .intro .name {
