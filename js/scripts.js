@@ -1,8 +1,3 @@
-/**
- * Created by Anders on 2014-11-26.
- */
-
-
 $( document ).ready(function() {
     // SVG fallback
     // toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script#update
