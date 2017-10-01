@@ -54,6 +54,30 @@ function EventsController($scope) {
             time: "08.00 - 22.00",
             where: "Skansen Kronan, Göteborg",
             type: "Conference",
+            link: "https://brewingagile.org/2014/"
+        },
+        {
+            name: "Brewing Agile 2015",
+            date: "2015-10-16",
+            time: "Fri + Sat",
+            where: "Skansen Kronan, Göteborg",
+            type: "Conference",
+            link: "https://brewingagile.org/2015/"
+        },
+        {
+            name: "Brewing Agile 2016",
+            date: "2016-11-04",
+            time: "Fri + Sat",
+            where: "Skansen Kronan, Göteborg",
+            type: "Conference",
+            link: "https://brewingagile.org/2016/"
+        },
+        {
+            name: "Brewing Agile 2017",
+            date: "2017-11-17",
+            time: "Fri + Sat",
+            where: "Auktionsverket, Göteborg",
+            type: "Conference",
             link: "https://brewingagile.org/"
         }
     ];
