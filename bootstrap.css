@@ -5897,6 +5897,12 @@ section.intro .bg-holder {
   section.intro .bg-holder.jeff {
     background: url('./img/jeff-full.jpg') 100% 0 no-repeat;
   }
+  section.intro .bg-holder.fredrik {
+    background: url('./img/fredrik_wendt-full.jpg') 100% 0 no-repeat;
+  }
+  section.intro .bg-holder.sami {
+    background: url('./img/sami_spjuth-full.jpg') 100% 0 no-repeat;
+  }
 }
 section.quotes {
   margin-top: 0;
