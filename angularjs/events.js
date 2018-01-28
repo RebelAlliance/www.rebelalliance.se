@@ -3,7 +3,7 @@ function EventsController($scope) {
         {
             name: "Scaled Professional Scrum",
             date: "2018-05-15",
-            "time": "two days",
+            "time": "Tue + Wed",
             where: "Hotel Post, Göteborg",
             type: "Course",
             link: "https://scaled-professional-scrum-ttt.confetti.events/"
