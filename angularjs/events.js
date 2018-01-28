@@ -1,6 +1,22 @@
 function EventsController($scope) {
     var events = [
         {
+            name: "Scaled Professional Scrum",
+            date: "2018-05-15",
+            "time": "two days",
+            where: "Hotel Post, Göteborg",
+            type: "Course",
+            link: "https://scaled-professional-scrum-ttt.confetti.events/"
+        },
+        {
+            name: "Mob Programming With Woody Zuill",
+            date: "2018-03-12",
+            "time": "until 2018-03-16",
+            where: "Göteborg",
+            type: "Course",
+            link: "/course-mobprogramming.html"
+        },
+        {
             name: "Mob Programming With Woody Zuill",
             date: "2017-09-18",
             "time": "until 2017-09-29",
