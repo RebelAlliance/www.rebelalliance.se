@@ -14,7 +14,23 @@ function EventsController($scope) {
             "time": "until 2018-03-16",
             where: "Göteborg",
             type: "Course",
-            link: "/course-mobprogramming.html"
+            link: "/mobprogramming.html"
+        },
+        {
+            name: "Practical Refactoring With Woody Zuill",
+            date: "2018-03-12",
+            "time": "until 2018-03-16",
+            where: "Göteborg",
+            type: "Course",
+            link: "/courses/practical-refactoring.html"
+        },
+        {
+            name: "#NoEstimates With Woody Zuill",
+            date: "2018-03-12",
+            "time": "until 2018-03-16",
+            where: "Göteborg",
+            type: "Course",
+            link: "/2018/woody-week-of-march.html"
         },
         {
             name: "Mob Programming With Woody Zuill",
@@ -22,7 +38,7 @@ function EventsController($scope) {
             "time": "until 2017-09-29",
             where: "Göteborg",
             type: "Course",
-            link: "/course-mobprogramming.html"
+            link: "/mobprogramming.html"
         },
         {
             name: "Introduktion till agila metoder - Lean, Scrum & Kanban",
