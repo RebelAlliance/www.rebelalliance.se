@@ -4,9 +4,41 @@ function EventsController($scope) {
             name: "Brewing Agile",
             date: "2018-10-11",
             "time": "until 2018-10-13",
-            where: "Hotel Post, Göteborg",
-            type: "Course",
-            link: "https://scaled-professional-scrum-ttt.confetti.events/"
+            where: "Auktionsverket Kulturarena",
+            type: "Conference",
+            link: "https://brewingagile.org/"
+        },
+        {
+            name: "Scrum Beers Göteborg",
+            date: "2018-06-12",
+            "time": "2018-06-12",
+            where: "Haket",
+            type: "Meetup",
+            link: "https://www.meetup.com/Scrum-beers-Goteborg/"
+        },
+        {
+            name: "Scrum Beers Göteborg",
+            date: "2018-07-10",
+            "time": "2018-07-10",
+            where: "Haket",
+            type: "Meetup",
+            link: "https://www.meetup.com/Scrum-beers-Goteborg/"
+        },
+        {
+            name: "Scrum Beers Göteborg",
+            date: "2018-08-14",
+            "time": "2018-08-14",
+            where: "Haket",
+            type: "Meetup",
+            link: "https://www.meetup.com/Scrum-beers-Goteborg/"
+        },
+        {
+            name: "Scrum Beers Göteborg",
+            date: "2018-09-11",
+            "time": "2018-09-11",
+            where: "Haket",
+            type: "Meetup",
+            link: "https://www.meetup.com/Scrum-beers-Goteborg/"
         },
         {
             name: "Scaled Professional Scrum",
