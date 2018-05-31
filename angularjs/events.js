@@ -41,6 +41,38 @@ function EventsController($scope) {
             link: "https://www.meetup.com/Scrum-beers-Goteborg/"
         },
         {
+            name: "Lean Coffee Gothenburg",
+            date: "2018-06-22",
+            "time": "2018-06-22",
+            where: "Café Ritazza",
+            type: "Meetup",
+            link: "https://www.meetup.com/Lean-Coffee-Gothenburg"
+        },
+        {
+            name: "Lean Coffee Gothenburg",
+            date: "2018-07-13",
+            "time": "2018-07-13",
+            where: "Café Ritazza",
+            type: "Meetup",
+            link: "https://www.meetup.com/Lean-Coffee-Gothenburg"
+        },
+        {
+            name: "Lean Coffee Gothenburg",
+            date: "2018-08-03",
+            "time": "2018-08-03",
+            where: "Café Ritazza",
+            type: "Meetup",
+            link: "https://www.meetup.com/Lean-Coffee-Gothenburg"
+        },
+        {
+            name: "Lean Coffee Gothenburg",
+            date: "2018-08-24",
+            "time": "2018-08-24",
+            where: "Café Ritazza",
+            type: "Meetup",
+            link: "https://www.meetup.com/Lean-Coffee-Gothenburg"
+        },
+        {
             name: "Scaled Professional Scrum",
             date: "2018-05-15",
             "time": "Tue + Wed",
