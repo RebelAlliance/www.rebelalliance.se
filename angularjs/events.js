@@ -1,6 +1,14 @@
 function EventsController($scope) {
     var events = [
         {
+            name: "Brewing Agile",
+            date: "2018-10-11",
+            "time": "until 2018-10-13",
+            where: "Hotel Post, Göteborg",
+            type: "Course",
+            link: "https://scaled-professional-scrum-ttt.confetti.events/"
+        },
+        {
             name: "Scaled Professional Scrum",
             date: "2018-05-15",
             "time": "Tue + Wed",
